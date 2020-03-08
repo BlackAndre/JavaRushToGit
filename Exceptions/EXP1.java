@@ -4,7 +4,6 @@ import java.io.CharConversionException;
 import java.io.IOException;
 import java.nio.file.FileSystemException;
 
-public class EXP1 {
 /*
 Перехват выборочных исключений
 Перехват выборочных исключений
@@ -31,9 +30,8 @@ catch (MyException e) {
 6. Метод main должен использовать try..catch.
 7. Метод main должен логировать исключения, которые кидает метод handleExceptions.
  */
-*/
 
-    public class Solution {
+    public class EXP1 {
         public static StatelessBean BEAN = new StatelessBean();
 
         public static void main(String[] args) {

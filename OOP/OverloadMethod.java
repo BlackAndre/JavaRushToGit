@@ -1,6 +1,5 @@
 package OOP;
 
-public class OverloadMethod {
     /*
 Попадание в десятку
 Добавь еще один метод, чтобы программа выводила на экран число 10.
@@ -18,9 +17,8 @@ public class OverloadMethod {
 6. Метод main должен вызывать метод transformValue только один раз.
 7. Программа должна вывести на экран число 10.
      */
-*/
 
-    public class Solution {
+    public class OverloadMethod {
         public static void main(String[] args) {
             Integer i = 5; // Integer и int это разные типы переменной
             int x = transformValue(i);
@@ -31,8 +29,9 @@ public class OverloadMethod {
         public static int transformValue(int i) {
             return i * i;
         }
+
         public static int transformValue(Integer i) {
             return i * 2;
         } // при добавлении данного метода, тот что выше,
-                                                                        //с int перезгрузился на новый, в нем заменил двойку
+        //с int перезгрузился на новый, в нем заменил двойку
     }
