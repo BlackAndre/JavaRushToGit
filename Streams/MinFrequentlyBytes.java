@@ -10,6 +10,7 @@ import java.util.Collections;
 
 public class MinFrequentlyBytes {
         public static void main(String[] args) throws Exception {
+            //аbstract
             ArrayList<Integer> list = new ArrayList();
             Map<Integer, Integer> mapOfFrequency = new HashMap<>();
             int countOfFrequency = 0;
